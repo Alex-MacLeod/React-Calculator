@@ -1,0 +1,74 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+  
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+  
+.btn {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 70px;
+    height: 56px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 109px;
+}
+  
+.display {
+    background: #009900;
+    border: 1px solid #999;
+    float: left;
+    font: 32px "Courier New", Courier, monospace;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 60px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: right;
+    width: 430px;
+}
+  
+.clear {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 56px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 325px;
+}
+  
+.btn:focus {
+    outline: none;
+}
+  
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+  
+.invisible {
+    color: #3c3c3c;
+    font-size: 24px;
+}
+  
+.app {
+    background: #3c3c3c;
+    width: 433px;
+    height: 380px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 25px;
+}
